@@ -88,7 +88,7 @@ nav.five li {
 }
 
 footer nav {
-   background-color: rgb(32, 42, 68);
+   background: radial-gradient(#3A9BCB, white);
    display: block;
 }
 
