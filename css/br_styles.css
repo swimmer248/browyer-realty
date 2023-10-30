@@ -19,8 +19,12 @@ header {
    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../png/town.jpg);
    background-size: cover;
    background-repeat: no-repeat;
-   padding-bottom: 50%;
+   padding-bottom: 100vh;
    /*This is all to make the background image use its full size god give me strength*/
+}
+
+.header_stuff {
+   background: linear-gradient(to left, white, #1B365D, white);
 }
 
 header a  {
@@ -62,11 +66,12 @@ header img {
    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 25px;
    width: 95%;
    filter: grayscale(1);
-   border-radius: 2px;
+   border-radius: 20px;
 }
 
 .img img:hover {
    filter: none;
+   border-radius: 0px;
 }
 
 h2, p {
