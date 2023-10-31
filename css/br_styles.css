@@ -74,14 +74,34 @@ header img {
    border-radius: 0px;
 }
 
-h2, p {
+h2, p, h3 {
    text-align: center;
+   width: 50%;
+   margin: auto;
 }
 
 nav li {
    display: block;
    float: left;
    text-align: center;
+}
+
+p.double {
+   float: right;
+   width: 25%;
+   margin-right: 25%;
+}
+
+ul.double {
+   width: 50%;
+   text-align: center;
+   float: left;
+}
+
+.thirds {
+   clear: both;   
+   content: "";
+   display: table;
 }
 
 nav.four li {
